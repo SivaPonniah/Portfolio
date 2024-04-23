@@ -9,9 +9,9 @@
 
 <script>
 import Carousel from "@/components/components/carousel.vue";
-import image1 from "@/assets/foto1.png";
-import image3 from "@/assets/logo.svg";
-import image2 from "@/assets/foto2.png";
+import image1 from "@/assets/login.png";
+import image2 from "@/assets/dashboard.png";
+import image3 from "@/assets/boek.png";
 
 export default {
   name: 'Project',

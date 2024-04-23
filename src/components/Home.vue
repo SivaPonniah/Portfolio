@@ -10,6 +10,9 @@
         </button>
         </a>
       </div>
+      <a href="https://github.com/SivaPonniah">
+      <img class="h-12 w-12 rounded-full mt-5 sm:h-20 sm:w-20 sm:mt-6" src="@/assets/github.jpg"/>
+      </a>
     </div>
 </template>
 
