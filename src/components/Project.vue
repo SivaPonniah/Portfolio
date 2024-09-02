@@ -1,6 +1,6 @@
 <template>
-  <div class="pt-20 bg-orange-500 text-white" id="projects">
-    <h1 class="sm:text-5xl text-4xl sm:text-center text-center sm:mt-6 mt-6">Projects</h1>
+  <div class="pt-20 bg-orange-500 text-white" id="project">
+    <h1 class="sm:text-5xl text-4xl sm:text-center text-center sm:mt-6 mt-6">Project</h1>
     <div class="flex justify-center rounded-lg">
       <carousel :items="carouselItems"/>
     </div>

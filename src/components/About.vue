@@ -62,6 +62,6 @@ export default {
 
 <style scoped>
 .progress-bar {
-  transition: width 2s ease-in-out; /* Adjust duration as needed */
+  transition: width 4s ease-in-out; /* Adjust duration as needed */
 }
 </style>

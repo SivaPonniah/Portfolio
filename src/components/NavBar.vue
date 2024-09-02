@@ -4,7 +4,7 @@
 
       <div class="max-w-screen-xl flex items-center p-4">
         <a href="#app" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="../../public/6840478.png" class="h-8"/>
+          <img src="../../public/6840478.png" class="h-8 hidden sm:block"/>
           <span class="self-center text-xl whitespace-nowrap text-black">Siva Ponniah</span>
         </a>
       </div>
@@ -35,12 +35,12 @@
             </a>
 <!--          </li>-->
 <!--          <li class="flex items-center">-->
-            <a  href="#projects" @click="isOpen = false" class="group text-xl py-2 px-8 transition-all duration-300 ease-in-out">
+            <a  href="#project" @click="isOpen = false" class="group text-xl py-2 px-8 transition-all duration-300 ease-in-out">
                   <span class="bg-left-bottom bg-gradient-to-r from-orange-500 to-orange-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out block">
-                    Projects
+                    Project
                   </span>
             </a>
-        <a  href="#projects" @click="isOpen = false" class="group text-xl py-2 px-8 transition-all duration-300 ease-in-out">
+        <a  href="/CV.pdf" target="_blank" @click="isOpen = false" class="group text-xl py-2 px-8 transition-all duration-300 ease-in-out">
                   <span class="bg-left-bottom bg-gradient-to-r from-orange-500 to-orange-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out block">
                     CV
                   </span>

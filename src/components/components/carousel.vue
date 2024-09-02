@@ -1,10 +1,10 @@
 <template>
   <div class="relative">
     <div class="overflow-hidden rounded-lg">
+      <h2 class="text-center mt-2 text-2xl mb-4">Edullecta</h2>
       <div class="flex transition-transform ease-in-out duration-300" :style="{ width: `${items.length * 100}%`, transform: `translateX(-${currentIndex * (100 / items.length)}%)` }">
         <div v-for="(item, index) in items" :key="index" class="w-full flex flex-col items-center">
-          <h2 class="text-center mt-2 text-2xl mb-4">Edullecta</h2>
-          <img :src="item.image" class=" object-cover mb-4 px-2 rounded-3xl sm:h-1/2 sm:w-1/2" alt="carousel item">
+          <img :src="item.image" class=" object-cover mb-4 px-2 rounded-3xl sm:h-full sm:w-1/2" alt="carousel item">
           <div class="flex justify-center gap-2 mt-4">
             <button v-for="dotIndex in items.length" :key="dotIndex" @click="currentIndex = dotIndex - 1" class="h-3 w-3 rounded-full" :class="{ 'bg-white': currentIndex === dotIndex - 1, 'bg-gray-400': currentIndex !== dotIndex - 1 }" aria-label="Go to slide"></button>
           </div>
@@ -20,13 +20,13 @@
               </svg>
             </button>
           </div>
-          <p class="text-sm px-2  mt-4 text-center sm:text-2xl">During my internship, I participated in the project Edullecta for Fluitend Leren, where we developed an E-learning platform.
-            This platform, created in a project group of four people, allows teachers to add, view and share lessons for a specific subject with students.
-            Fluitend Leren already offers physical books, but now also in the form of PDF files on this E-learning platform.
-            During this project, I gained valuable experience with the frameworks Vue.js and Laravel.
-            It was an instructive and fascinating project that taught me a lot. </p>
         </div>
       </div>
+      <p class="text-sm px-2  text-center sm:text-2xl">During my internship, I participated in the project Edullecta for Fluitend Leren, where we developed an E-learning platform.
+        This platform, created in a project group of four people, allows teachers to add, view and share lessons for a specific subject with students.
+        Fluitend Leren already offers physical books, but now also in the form of PDF files on this E-learning platform.
+        During this project, I gained valuable experience with the frameworks Vue.js and Laravel.
+        It was an instructive and fascinating project that taught me a lot. </p>
     </div>
   </div>
 </template>
