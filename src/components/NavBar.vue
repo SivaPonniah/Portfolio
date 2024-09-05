@@ -3,7 +3,7 @@
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
 
       <div class="max-w-screen-xl flex items-center p-4">
-        <a href="#app" class="flex items-center space-x-3 rtl:space-x-reverse">
+        <a href="#app" class="flex items-center  rtl:space-x-reverse">
           <img src="../../public/6840478.png" class="h-8 hidden sm:block"/>
           <span class="self-center text-xl whitespace-nowrap text-black">Siva Ponniah</span>
         </a>
