@@ -51,9 +51,9 @@ export default defineComponent({
     return {
       // PROJECT 1: EDULLECTA
       edullectaImages: [
-        { image: '/assets/6840478.png' },
-        { image: '/assets/dashboard.png' },
-        { image: '/assets/boek.png' }
+        { image: '/Portfolio/assets/6840478.png' },
+        { image: '/Portfolio/assets/dashboard.png' },
+        { image: '/Portfolio/assets/boek.png' }
       ],
       edullectaInfo: {
         title: 'Edullecta',
@@ -63,9 +63,9 @@ export default defineComponent({
 
       // PROJECT 2: CODE EXCHANGE
       project2Images: [
-        { image: '/assets/code_exchange_3.png' },
-        { image: '/assets/code_exchange_4.png' },
-        { image: '/assets/code_exchange_1.png' }
+        { image: '/Portfolio/assets/code_exchange_3.png' },
+        { image: '/Portfolio/assets/code_exchange_4.png' },
+        { image: '/Portfolio/assets/code_exchange_1.png' }
       ],
       project2Info: {
         title: 'Code Exchange',
@@ -75,9 +75,9 @@ export default defineComponent({
 
       // PROJECT 3: LUCASTARS WEBSHOP
       project3Images: [
-        { image: '/assets/lucastars_2.png' },
-        { image: '/assets/lucastars_3.png' },
-        { image: '/assets/lucastars_1.png' }
+        { image: '/Portfolio/assets/lucastars_2.png' },
+        { image: '/Portfolio/assets/lucastars_3.png' },
+        { image: '/Portfolio/assets/lucastars_1.png' }
       ],
       project3Info: {
         title: 'Lucastars Webshop',
@@ -87,10 +87,10 @@ export default defineComponent({
 
       // PROJECT 4: TODD
       project4Images: [
-        { image: '/assets/todd_1.png' },
-        { image: '/assets/todd_2.png' },
-        { image: '/assets/todd_3.png' },
-        { image: '/assets/todd_4.png' }
+        { image: '/Portfolio/assets/todd_1.png' },
+        { image: '/Portfolio/assets/todd_2.png' },
+        { image: '/Portfolio/assets/todd_3.png' },
+        { image: '/Portfolio/assets/todd_4.png' }
       ],
       project4Info: {
         title: 'Todd Application',
