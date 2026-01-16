@@ -51,7 +51,7 @@ export default defineComponent({
     return {
       // PROJECT 1: EDULLECTA
       edullectaImages: [
-        { image: '/Portfolio/assets/6840478.png' },
+        { image: '/Portfolio/assets/login.png' },
         { image: '/Portfolio/assets/dashboard.png' },
         { image: '/Portfolio/assets/boek.png' }
       ],

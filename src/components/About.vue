@@ -6,7 +6,7 @@
   <div class="mt-4 grid md:grid-cols-2 sm:grid-cols-2">
     <div class="p-4">
       <h1 class=" sm:text-4xl text-lg font-bold">Get to know me !</h1>
-      <p class="sm:text-2xl mt-8">Hello, I am Siva Ponniah, 18 years old and currently studying Software Development.
+      <p class="sm:text-2xl mt-8">Hello, I am Siva Ponniah, 19 years old and currently studying Software Development.
         As an inquisitive student, I love discovering new things.
         During my internship at Startpagina, I gained valuable experience in working within a project team and understanding the structure involved.
         Although my interest lies mainly in Front-end development, I am also willing to take on Back-end tasks if needed.</p>
