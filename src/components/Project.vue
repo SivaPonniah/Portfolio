@@ -81,7 +81,7 @@ export default defineComponent({
       ],
       project3Info: {
         title: 'Lucastars Webshop',
-        description: 'Full-featured e-commerce platform with product management, shopping cart functionality, and secure checkout process. Designed with modern UI/UX principles.',
+        description: 'An  platform developed in a team of 4, where users can browse existing games, purchase them, and complete checkout. I was primarily responsible for implementing the shopping cart functionality, allowing users to add products to their cart, and developing the discount code system that customers can apply during checkout.',
         techs: ['TypeScript', 'HTML/CSS', 'mySQL']
       },
 
@@ -93,8 +93,8 @@ export default defineComponent({
         { image: '/Portfolio/assets/todd_4.png' }
       ],
       project4Info: {
-        title: 'Todd Application',
-        description: 'Enterprise-level application with JWT authentication, RESTful API architecture, built with scalability and security in mind.',
+        title: 'GO VOTE',
+        description: 'A platform developed in a team of 5, designed to retrieve and display election data. My main focus was on implementing the user authentication system, including registration and login functionality. I also developed the admin account system with JWT (JSON Web Token) authentication to ensure secure access control and role-based permissions.',
         techs: ['Vue.js', 'TypeScript', 'Java/Spring Boot', 'PostgreSQL', 'JWT']
       }
     }
