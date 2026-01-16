@@ -51,9 +51,9 @@ export default defineComponent({
     return {
       // PROJECT 1: EDULLECTA
       edullectaImages: [
-        { image: 'src/assets/login.png' },
-        { image: 'src/assets/dashboard.png' },
-        { image: 'src/assets/boek.png' }
+        { image: '/assets/6840478.png' },
+        { image: '/assets/dashboard.png' },
+        { image: '/assets/boek.png' }
       ],
       edullectaInfo: {
         title: 'Edullecta',
@@ -63,9 +63,9 @@ export default defineComponent({
 
       // PROJECT 2: CODE EXCHANGE
       project2Images: [
-        { image: 'src/assets/code_exchange_3.png' },
-        { image: 'src/assets/code_exchange_4.png' },
-        { image: 'src/assets/code_exchange_1.png' }
+        { image: '/assets/code_exchange_3.png' },
+        { image: '/assets/code_exchange_4.png' },
+        { image: '/assets/code_exchange_1.png' }
       ],
       project2Info: {
         title: 'Code Exchange',
@@ -75,9 +75,9 @@ export default defineComponent({
 
       // PROJECT 3: LUCASTARS WEBSHOP
       project3Images: [
-        { image: 'src/assets/lucastars_2.png' },
-        { image: 'src/assets/lucastars_3.png' },
-        { image: 'src/assets/lucastars_1.png' }
+        { image: '/assets/lucastars_2.png' },
+        { image: '/assets/lucastars_3.png' },
+        { image: '/assets/lucastars_1.png' }
       ],
       project3Info: {
         title: 'Lucastars Webshop',
@@ -87,14 +87,14 @@ export default defineComponent({
 
       // PROJECT 4: TODD
       project4Images: [
-        { image: 'src/assets/todd_1.png' },
-        { image: 'src/assets/todd_2.png' },
-        { image: 'src/assets/todd_3.png' },
-        { image: 'src/assets/todd_4.png' }
+        { image: '/assets/todd_1.png' },
+        { image: '/assets/todd_2.png' },
+        { image: '/assets/todd_3.png' },
+        { image: '/assets/todd_4.png' }
       ],
       project4Info: {
         title: 'Todd Application',
-        description: 'Enterprise-level application with JWT authentication, RESTful API architecture, and responsive frontend. Built with scalability and security in mind.',
+        description: 'Enterprise-level application with JWT authentication, RESTful API architecture, built with scalability and security in mind.',
         techs: ['Vue.js', 'TypeScript', 'Java/Spring Boot', 'PostgreSQL', 'JWT']
       }
     }
