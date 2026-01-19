@@ -7,6 +7,7 @@
       <div class="w-full md:w-1/2">
         <div class="border-2 border-orange-500 bg-orange-200 rounded-xl p-8 text-gray-600">
           <form class="flex flex-col space-y-4" action="https://formsubmit.co/sivaponniah14@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://sivaponniah.github.io/Portfolio/">
             <div>
               <label class="text-white" for="name">Name</label>
               <input
