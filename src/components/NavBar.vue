@@ -40,7 +40,7 @@
                     Project
                   </span>
             </a>
-        <a  href="public/cv-siva-ponniah.pdf" target="_blank" @click="isOpen = false" class="group text-xl py-2 px-8 transition-all duration-300 ease-in-out">
+        <a  href="/Portfolio/cv-siva-ponniah.pdf" target="_blank" @click="isOpen = false" class="group text-xl py-2 px-8 transition-all duration-300 ease-in-out">
                   <span class="bg-left-bottom bg-gradient-to-r from-orange-500 to-orange-500 bg-[length:0%_2px] bg-no-repeat group-hover:bg-[length:100%_2px] transition-all duration-500 ease-out block">
                     CV
                   </span>
